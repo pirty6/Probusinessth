@@ -1,0 +1,25 @@
+:global{
+  .companies{
+    display:flex;
+    box-sizing:border-box;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom:6rem;
+    padding-top:6rem;
+    & > .companies-container{
+      padding-top:4rem;
+      width:90vw;
+      & > .company{
+        lost-column:1/3;
+        display:flex;
+        box-sizing:border-box;
+        justify-content:center;
+        padding-top:1.5rem;
+        & > img{
+          height:60px;
+          cursor:pointer;
+        }
+      }
+    }
+  }
+}

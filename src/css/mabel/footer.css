@@ -1,0 +1,48 @@
+:global{
+  .footer{
+    background-color: #EBEBEB;
+    padding-top:5rem;
+    display:flex;
+    box-sizing:border-box;
+    flex-wrap:wrap;
+    & > .contact{
+      width:30%;
+      background-color:#EBEBEB;
+      & > .contact-container{
+        display:flex;
+        box-sizing:border-box;
+        & > .left-column{
+          display:flex;
+          box-sizing: border-box;
+          flex-direction:column;
+          width:50%;
+        }
+        & > .right-column{
+          display:flex;
+          box-sizing:border-box;
+          flex-direction:column;
+        }
+      }
+    }
+    & > .social{
+      width:30%;
+      & > .social-container{
+        width:100%;
+        & > .social-icon{
+          & > img{
+            height:15px;
+            padding-right:1rem;
+          }
+        }
+      }
+    }
+    & > .privacy-container{
+      width:100%;
+      & > .rectangle-footer{
+        background-color: #716E6B;
+        width:80vw;
+        height:3px;
+      }
+    }
+  }
+}

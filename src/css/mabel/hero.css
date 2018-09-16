@@ -1,0 +1,13 @@
+:global {
+  /* will compile to: global-class-name */
+  .hero {
+    height:70vh;
+    display:flex;
+    align-items:center;
+    padding-left:6rem;
+
+    & > .container{
+      lost-column:1/2;
+    }
+  }
+}

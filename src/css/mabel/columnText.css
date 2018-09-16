@@ -1,0 +1,30 @@
+:global{
+  .column-text{
+    margin-top:-1.1rem;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-sizing:border-box;
+    & > .columns-container{
+      display:flex;
+      box-sizing:border-box;
+      width:80vw;
+      padding-top:3rem;
+      & > .column{
+        lost-column:1/3;
+        text-align:center;
+        padding-right:2rem;
+        padding-left:2rem;
+        & > img {
+          height:30px;
+        }
+        & > .hidden{
+          display:none;
+        }
+      }
+    }
+  }
+}

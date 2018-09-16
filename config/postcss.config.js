@@ -24,6 +24,7 @@ require('postcss-simple-vars')({
 }),
 /* PostCSS plugin for making calculations with math.js  */
 require('postcss-math'),
+require('lost'),
 /* transform W3C CSS color function to more compatible CSS. */
 require('postcss-color-function')
 ]

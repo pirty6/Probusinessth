@@ -1,0 +1,17 @@
+:global{
+  .button-container{
+    display:flex;
+    box-sizing:border-box;
+    align-items:center;
+    justify-content:center;
+    padding-top:3rem;
+    padding-bottom:6rem;
+    & > .cta-primary-show{
+      height:100px;
+      width:500px;
+      & > span{
+        font-size:1.5rem;
+      }
+    }
+  }
+}
